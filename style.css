@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Estilização do corpo do HTML */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,6 +14,7 @@ body {
     min-height: 100vh;
 }
 
+/* Estilização do navbar */
 .navbar {
     display: flex;
     flex-direction: column;
@@ -41,6 +43,7 @@ body {
     color: #ddd;
 }
 
+/* Estilização para o header */
 header {
     grid-column-start: 1;
     grid-column-end: 12;
@@ -51,11 +54,13 @@ header {
     margin: 30px;
 }
 
+/* Estilização para o container */
 .container {
     display: grid;
     text-align: center;
 }
 
+/* Estilização da section */
 section.principal {
     max-width: 75%;
     margin: 0 auto;
@@ -71,6 +76,16 @@ section.principal p {
     margin: 0;
 }
 
+.principal {
+    grid-column-start: 4;
+    grid-column-end: 12;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+
+}
+
+/* Estilização do formulário */
 .formulario {
     width: 75%;
     margin: 0 auto;
@@ -91,15 +106,7 @@ th, td {
     text-align: left;
 }
 
-.principal {
-    grid-column-start: 4;
-    grid-column-end: 12;
-    padding-left: 35px;
-    padding-right: 35px;
-    text-align: center;
-
-}
-
+/* Estilização do footer */
 .footer {
     display: flex;
     flex-direction: column;
